@@ -9,7 +9,6 @@ const OrgList = () => {
     const getOrganisations = async () => {
         try {
             const { data } = await API.get("/admin/org-list");
-            // console.log(data);
             if (data?.success) {
                 setData(data?.orgData);
             }
