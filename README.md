@@ -6,9 +6,9 @@ blood bank website is an online platform that serves as a centralized resource f
 1. Open your local CLI -
 
    ```
-   mkdir MyBloodBank
+   mkdir blood_bank_simple
 
-   cd MyBloodBank
+   cd blood_bank_simple
    ```
 
 2. Setup the code -
@@ -19,7 +19,7 @@ blood bank website is an online platform that serves as a centralized resource f
      ```
      git clone <repo-link>
 
-     cd MyBloodBank
+     cd blood_bank_simple
      ```
 
 3. Setup the backend code -
@@ -34,14 +34,14 @@ blood bank website is an online platform that serves as a centralized resource f
    - Open your Mongoose Client -
 
    ```
-   CREATE DATABASE MyBloodBank;
+   CREATE DATABASE blood_bank_simple;
    ```
 
    NOTE: Don't forget to keep the database name same in the `.env` and here.
 
    - Run the server `npm run server`.
 
-4. Open a new CLI terminal and goto the root `MyBloodBank` folder you created in the first step.
+4. Open a new CLI terminal and goto the root `blood_bank_simple` folder you created in the first step.
 5. Setup the Frontend code -
 
    - Goto client directory and install the modules-
@@ -65,6 +65,4 @@ Some of the technologies used in the development of this web application are as 
 -   [Redux.js](https://redux.js.org/): A predictable & global state container for React apps.
 -   [Mongoose](https://mongoosejs.com/): An ODM(Object Data Modelling)library for MongoDB and Node.js
 
-## Made By
-### Rahul Bairagi | [📝 LinkedIn](https://www.linkedin.com/in/rahul3008/)
 
