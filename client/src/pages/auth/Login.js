@@ -2,7 +2,7 @@ import React from 'react'
 import Form from '../../components/shared/Form/Form';
 import { useSelector } from 'react-redux/es/hooks/useSelector';
 import Spinner from '../../components/shared/Spinner';
-// import { toast } from 'react-toastify';
+
 import "../../index.css";
 const Login = () => {
     const { loading, error } = useSelector(state => state.auth) // global state ko target krke usme se cheezo ko destructor krenge
